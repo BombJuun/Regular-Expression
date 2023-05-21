@@ -25,9 +25,13 @@
 
 2.텍스트 처리 프로그램,텍스트 편집기, 프로그래밍 언어에서 정규표현식 기능을 제공
 
-3.내장 되어있는 프로그래밍 언어:펄,JavaScript,루비,Tcl
-표준 라이브러리로 사용하는 프로그래밍 언어:.Net FrameWork,Java,Python,POSIX,C,C++등
-그 밖의 언어:별도의 라이브러리 사용
+3.**내장 되어있는 프로그래밍 언어**:펄,JavaScript,루비,Tcl
+
+**표준 라이브러리로 사용하는 프로그래밍 언어**:
+
+.Net FrameWork,Java,Python,POSIX,C,C++등
+
+**그 밖의 언어**:별도의 라이브러리 사용
 
 4.정규표현식의 활용:검색 엔진,워드 프로세서와 문서 편집기의 찾아바꾸기 대화상자,어휘 분석 등
 
@@ -172,7 +176,7 @@ finall()를 제외하고 모든 함수들의 반환은 match object로 반환되
 	
 **👉코드 예제(Python)**
 ```python
-	
+# 전화번호 유효성 검사 예제 
 import re
 
 def validate_phone_number(phone_number):
@@ -190,7 +194,7 @@ def validate_phone_number(phone_number):
     else:
         return False
 
-# 전화번호 유효성 검사 예제
+
 phone_number1 = "010-1234-5678"
 phone_number2 = "02-987-6543"
 phone_number3 = "123-4567"
